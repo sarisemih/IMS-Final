@@ -57,3 +57,22 @@ Metabase'in açık kaynaklı olması ve kullanıcı dostu arayüzü önemli krit
 10. **Özel Uyarılar ve Bildirimler**: Metabase, kullanıcılara özel uyarılar ve bildirimler oluşturmayı sağlar. Bu özellik, girişimcilerin, CRM veya ERP gibi belirli iş alanları için özel uyarılar ve bildirimler oluşturmasına olanak tanır.
 
 Bu faydalar, Metabase'in iş zekası çözümlerimiz için tercih edilmesinde önemli rol oynamıştır.
+
+## Q2: Dataset Tanımı
+
+Bu bölümde, kullanılacak veri setinin detayları ve veri alımı ile ilgili planlar ele alınmaktadır.
+
+### Veri Seti Detayları
+
+- **İçerik:** Veri seti, müşterilerin aldığı hizmetlerin detaylarını içerir. Her bir hizmetin tarih ve saat bilgileriyle birlikte kullanıcı ve hizmet kimlikleri bulunmaktadır.
+- **Veri Oluşturma Yöntemi:** Veri seti, şirketin hizmet sisteminden toplanmıştır. Her bir hizmet, kullanıcıların çeşitli kategoriler altında aldığı hizmetleri temsil eder.
+- **Veri Formatı:** Veri seti CSV formatında bulunmaktadır.
+- **Veri Boyutu:** Veri seti toplamda 4 değişken ve 162.523 gözlemden oluşur. Dosyanın boyutu yaklaşık 5 MB'dır.
+
+### Veri İthalatı ve İşleme Planı
+
+- **Veri İthalatı:** Veri, IMS platformuna veritabanından aktarılacaktır. Bu işlem, veri setinin IMS'in kullanacağı veritabanına aktarılmasını içerir.
+- **IMS'e İthalattan Sonra:** Veri IMS platformuna aktarıldıktan sonra, R kullanılarak veri çekme işlemi gerçekleştirilecektir. Bu işlemi doğrudan IMS'in kullandığı veritabanına R'in bağlanması yoluyla gerçekleştirilecektir.
+
+Bu plan doğrultusunda, veri setinin IMS platformuna başarılı bir şekilde aktarılması ve R kullanılarak veri çekme işleminin gerçekleştirilmesi planlanmaktadır.
+
