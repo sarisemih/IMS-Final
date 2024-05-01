@@ -76,3 +76,41 @@ Bu bölümde, kullanılacak veri setinin detayları ve veri alımı ile ilgili p
 
 Bu plan doğrultusunda, veri setinin IMS platformuna başarılı bir şekilde aktarılması ve R kullanılarak veri çekme işleminin gerçekleştirilmesi planlanmaktadır.
 
+## Q3: İş Tanımı
+
+
+### İş / Kuruluş Tanımı
+
+Kuruluş, hizmet verenler ile hizmet almak isteyenleri buluşturan bir platformdur. Bilgisayarın veya akıllı telefonunun üzerinden birkaç dokunuşla temizlik, tadilat, nakliyat gibi çeşitli hizmetlere kolayca ulaşılmasını sağlar. Platform, kullanıcıların çeşitli ihtiyaçlarına yönelik geniş bir hizmet yelpazesini kapsar ve kullanıcıların bu hizmetlere kolayca erişebilmesini sağlar.
+
+### İşin Aktiviteleri ve Rutin Operasyonları
+
+Hizmet aracının iş ve operasyonları şu aktiviteleri içerir:
+
+- Hizmet Sağlayıcı ve Hizmet Alanın Eşleştirilmesi
+- Kullanıcı Taleplerinin Karşılanması
+- Ödeme İşlemlerinin Yönetimi
+- İletişim ve Müşteri Destek Hizmetleri
+- Hizmet Kalitesinin İzlenmesi ve Değerlendirilmesi
+
+### Gelir Modeli
+
+Kuruluş, kullanıcıların sunduğu hizmetlerden alınan komisyonlar üzerinden gelir elde eder. Platform üzerinden gerçekleşen işlemlerin bir yüzdesi alınır.
+
+### İş ve İş Modelinin Zorlukları ve Avantajları
+
+#### Zorluklar
+
+- Rekabetin Yoğunluğu: Benzer hizmetleri sunan diğer platformlarla rekabet etmek zor olabilir.
+- Hizmet Kalitesinin Güvencesi: Platform üzerinden sunulan hizmetlerin kalitesinin kontrol edilmesi ve sağlanması zorluğu.
+- Kullanıcı Güveni: Kullanıcıların platforma olan güveninin sağlanması ve korunması.
+
+#### Avantajlar
+
+- Geniş Kullanıcı Tabanı: Platformun geniş kullanıcı tabanına sahip olması.
+- Çeşitlilik: Geniş hizmet yelpazesi ve çeşitli seçenekler sunması.
+- Kolay Erişim: Kullanıcıların kolayca platforma erişebilmesi ve hizmetlerden faydalanabilmesi.
+
+### Rakipler ve Avantajlar / Dezavantajlar
+
+Potansiyel rakipleri arasında benzer hizmetleri sunan diğer platformlar yer almaktadır. Bu platformlar da geniş bir kullanıcı tabanına ve çeşitli hizmetlere sahip olabilir. Rakiplerin avantajları ve dezavantajları, hizmet kalitesi, kullanıcı deneyimi ve fiyatlandırma gibi faktörlere bağlı olarak değişebilir.
