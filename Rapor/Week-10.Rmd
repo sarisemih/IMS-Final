@@ -1,6 +1,6 @@
 ---
 title: "Bilgi Yönetim Sistemi Raporu"
-authors: Semih Sarı, Merve Yılmaz, Berat Öcal, Ümit Atakan Günel
+authors: Semih Sarı 200401071, Merve Yılmaz 210401009, Berat Öcal 200401017, Ümit Atakan Günel 210401004
 date: "01/05/2024"
 output:
   html_document:
@@ -114,3 +114,30 @@ Kuruluş, kullanıcıların sunduğu hizmetlerden alınan komisyonlar üzerinden
 ### Rakipler ve Avantajlar / Dezavantajlar
 
 Potansiyel rakipleri arasında benzer hizmetleri sunan diğer platformlar yer almaktadır. Bu platformlar da geniş bir kullanıcı tabanına ve çeşitli hizmetlere sahip olabilir. Rakiplerin avantajları ve dezavantajları, hizmet kalitesi, kullanıcı deneyimi ve fiyatlandırma gibi faktörlere bağlı olarak değişebilir.
+
+
+## Q4: İyileştirme (Optimizasyon) Stratejisi
+
+### Fayda Sağlanması Planlanan Alanlar
+
+Proje kapsamında, veri seti üzerinde yapılacak olan Association Rule Learning analiziyle aşağıdaki faydalar sağlanması planlanmaktadır:
+
+1. **Hizmet Tavsiyelerinin Geliştirilmesi**: Veri setinde bulunan kullanıcıların aldıkları hizmetler ve bu hizmetlerin kategorileri üzerinden, Association Rule Learning ile bir hizmet tavsiye sistemi oluşturulması hedeflenmektedir. Bu sayede, kullanıcıların ilgilerine göre önerilerde bulunularak müşteri memnuniyeti ve hizmet kalitesi arttırılabilir.
+
+2. **Pazarlama ve Satış Stratejilerinin Güçlendirilmesi**: Association Rule Learning analizi sonucunda elde edilecek olan ilişkiler ve kural setleri, pazarlama ve satış stratejilerinin belirlenmesinde kullanılabilir. Hangi hizmetlerin bir arada talep edildiğine dair bilgi, pazarlama kampanyalarının ve promosyonların daha etkili bir şekilde hedeflenmesine olanak tanır.
+
+3. **Müşteri Segmentasyonunun İyileştirilmesi**: Veri analizi sonucunda elde edilecek olan ilişkiler, müşterilerin farklı segmentlere ayrılmasını sağlayabilir. Bu sayede, müşteri ihtiyaçlarına daha özelleştirilmiş hizmetler sunularak müşteri memnuniyeti artırılabilir ve sadakat sağlanabilir.
+
+### Strateji Uygulama Planı
+
+Proje kapsamında, aşağıdaki adımların takip edilmesi planlanmaktadır:
+
+1. **Veri Setinin Hazırlanması**: İlk olarak, veri seti üzerinde gerekli ön işlemler yapılarak veri seti hazırlanacaktır. Bu adımda, veri seti içerisindeki kullanıcıların aldıkları hizmetler ve bu hizmetlerin tarih bilgileri kullanılarak bir sepet tanımı oluşturulacaktır.
+
+2. **Association Rule Learning Analizi**: Hazırlanan veri seti üzerinde Association Rule Learning algoritması uygulanacaktır. Bu adımda, ilişkisel kurallar ve kural setleri elde edilerek hizmetler arasındaki ilişkiler analiz edilecektir.
+
+3. **Hizmet Tavsiye Sistemi Oluşturma**: Association Rule Learning analizi sonucunda elde edilen kural setleri kullanılarak bir hizmet tavsiye sistemi oluşturulacaktır. Bu sistem, kullanıcıların ilgi ve tercihlerine göre hizmet önerilerinde bulunarak müşteri memnuniyetini artıracaktır.
+
+4. **Sonuçların Değerlendirilmesi ve Uygulamaya Geçirme**: Oluşturulan hizmet tavsiye sistemi üzerinde yapılan testler ve değerlendirmeler sonucunda elde edilen sonuçlar incelenecek ve gerekli düzeltmeler yapılacaktır. Daha sonra, sistemin canlı ortama geçirilerek kullanıma sunulması planlanmaktadır.
+
+Bu adımların takip edilmesiyle, veri analizi sürecinden elde edilen bilgilerin iş stratejilerine entegre edilmesi ve işletme performansının artırılması hedeflenmektedir.
