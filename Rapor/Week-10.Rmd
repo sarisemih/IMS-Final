@@ -1,0 +1,59 @@
+---
+title: "Bilgi Yönetim Sistemi Raporu"
+authors: Semih Sarı, Merve Yılmaz, Berat Öcal, Ümit Atakan Günel
+date: "01/05/2024"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+
+## Q1: IMS Platformunun Belirlenmesi
+
+Bu bölümde, IMS platformunun seçimi için yapılan süreçler ve sonuçları ele alınmaktadır.
+
+### Seçilen Platform: Metabase
+
+- **Lisans**: GNU Affero General Public License (AGPL)
+- **Kısa Tarihçe**: Metabase, 2015 yılında kurulan ve açık kaynaklı bir BI (Business Intelligence) aracıdır. Geliştiriciler, kullanıcıların verilerini keşfetmelerini ve analiz etmelerini sağlayan kullanıcı dostu bir arayüz sunmayı amaçlamaktadır.
+- **Kullanıcıya Sunduğu Özellikler**:
+  - Görselleştirme Araçları: Metabase, çeşitli grafik ve tablo türlerini destekleyerek verilerin etkili bir şekilde görselleştirilmesini sağlar.
+  - Kolay Kullanım: Kullanıcı dostu arayüzü ve sürükle-bırak özelliği sayesinde, kullanıcılar verileri kolayca analiz edebilir ve raporlar oluşturabilir.
+  - Veri Bağlantıları: Metabase, çeşitli veri kaynaklarına bağlanabilme yeteneği sunar, bu da farklı veri kaynaklarının entegrasyonunu sağlar.
+- **Kullanılan Yazılım ve Teknolojiler**:
+  - Programlama Dili: Clojure'da yazılmış bir backend ve Web kullanıcı arayüzünü sağlayan, Javascript tek sayfalı bir uygulama olarak yazılmış bir ön frontend mevcuttur.
+  - Veritabanı ve Veri Kaynakları: PostgreSQL, MySQL, SQL Server, Redshift, Amazon Athena, Apache Spark, BigQuery, MongoDB, Oracle Database, SQLite, Vertica
+  - Diğer Teknolojiler: Docker, Kubernetes (Opsiyonel)
+- **API Özellikleri**: 
+  - Metabase'in REST API'si, çeşitli görevleri otomatikleştirmek için kullanılabilir. API, ön uç ile arka uç arasında bağlantı kurarak neredeyse her şeyin otomatik olarak yapılandırılmasına olanak tanır.
+  - GET ve POST İstekleri: Metabase API'si, GET ve POST istekleri gibi temel HTTP yöntemlerini destekler. Bu yöntemler aracılığıyla veri alabilir, güncelleyebilir ve oluşturabilirsiniz.
+  - Veri Sorgulama ve İşleme: API, veritabanlarına sorgu gönderme ve sonuçları almak için kullanılabilir. Bu, veri analizi ve rapor oluşturma süreçlerini programatik olarak gerçekleştirmeyi mümkün kılar.
+  
+
+### Seçim Nedenleri
+Metabase'in açık kaynaklı olması ve kullanıcı dostu arayüzü önemli kriterlerdir. Geniş bir kullanıcı tabanına sahip ve sektörde popüler bir araçtır.
+
+#### Metabase'in Sağladığı Faydalar
+
+1. **Kolay Yönetim**: Metabase, yönetilmesi oldukça kolay bir iş zekası aracıdır. Arayüzü basit ve kullanıcı dostudur, bu da yönetim işlemlerini kolaylaştırır.
+  
+2. **Hızlı Kurulum ve Yönetim**: Metabase, hızlı bir şekilde kurulabilir ve kolayca yönetilebilir. Bu özelliği, şirketin hızlı bir şekilde iş zekası çözümlerine geçiş yapmasını sağlar.
+  
+3. **Kullanıcı Yetkilerinin Ayarlanması**: Kullanıcıların erişim yetkilerini belirlemek ve ayarlamak Metabase üzerinde oldukça basittir. Bu sayede veri güvenliği sağlanabilir ve kullanıcıların sadece kendilerine uygun verilere erişmesi sağlanabilir.
+  
+4. **Otomatik Veritabanı Bağlantıları**: Metabase, veritabanı bağlantılarını yapılandırdıktan sonra birçok işlemi otomatik olarak gerçekleştirir. Bu da kullanıcıların veri analizi süreçlerini hızlandırır ve kolaylaştırır.
+  
+5. **İnternet Bağlantısı Gerektirmeyen Kullanım**: Metabase, internet olmadan kendi intranet ortamında kullanılabilir. Bu özellik, şirketlerin veri analizi yapabilmesini herhangi bir yerde ve zamanda sağlar.
+  
+6. **Kullanıcı Dostu Arayüz**: Metabase'in kullanıcı dostu arayüzü, son kullanıcıların veri analizi yapmasını kolaylaştırır. Sürükle-bırak özelliği ve hazır şablonlar sayesinde, son kullanıcılar raporlarını kolayca oluşturabilir.
+  
+7. **X-Ray Özelliği**: Metabase'in X-Ray özelliği, bütün verilerin incelenmesini ve gerekli gösterge panellerinin otomatik oluşturulmasını sağlar. Bu özellik, veri analizi sürecini otomatikleştirir ve hızlandırır.
+  
+8. **Alarm Oluşturma ve Bildirimler**: Kullanıcılar, Metabase üzerinde belirli koşullar sağlandığında otomatik olarak bildirim alabilir. Örneğin, MES için belirli bir ısı değeri aşıldığında veya CRM için belirli bir satış tutarı geçildiğinde bildirim alınabilir.
+  
+9. **Özelleştirilmiş Bildirimler**: Kullanıcılar, istedikleri raporları düzenli olarak kendilerine gönderilmesini sağlayabilir. Bu özellik, kullanıcıların sürekli olarak güncel verilere erişimini sağlar.
+  
+10. **Özel Uyarılar ve Bildirimler**: Metabase, kullanıcılara özel uyarılar ve bildirimler oluşturmayı sağlar. Bu özellik, girişimcilerin, CRM veya ERP gibi belirli iş alanları için özel uyarılar ve bildirimler oluşturmasına olanak tanır.
+
+Bu faydalar, Metabase'in iş zekası çözümlerimiz için tercih edilmesinde önemli rol oynamıştır.
